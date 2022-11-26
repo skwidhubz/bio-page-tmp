@@ -1,2 +1,8 @@
-# bio-page-tmp
-Bio page featuring my folio of work and contact details
+# Thomas Parker - Bio & Folio webpage
+
+
+## Bio page featuring my folio of work and contact details.
+
+
+### Designed by Thomas M Parker
+
