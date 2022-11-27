@@ -1,5 +1,5 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     
 }
 
@@ -31,14 +31,17 @@ body {
 a {
 
     font-weight: bolder;
-    color: rgb(48, 205, 150);
+    color: #00c2cb;
     text-decoration: none;
     transition: ease-in-out;
 }
 
 a:hover {
 
-    color: royalblue;
+    color: orange;
+    transition: 0.5s ease-in-out ;
+
+
     
 }
 
@@ -57,15 +60,21 @@ header {
     width: 100%;
     font-size: large;
     background: black;
+    background: transparent;
     border: 5px;
     border-style: none;
     padding: 0px;
 
 }
 
-header h1 {
-    padding: 15px;
-    justify-content: flex-start;
+header img {
+    
+    height: 150px;
+    width: 180px;
+}
+
+.supergeek {
+    color: antiquewhite;
 }
 
 ul {
@@ -94,19 +103,22 @@ ul {
 
 .profile-pic #profile {
     display: block;
+
 }
 
 .profile-pic #profile {
-    width: 600px;
-    height: 400px;
+
+    height: 500px;
+    width: 700px;
     opacity: 0.5;
     padding: 50px;
 
 }
 
 .profile-pic #profile:hover {
-    width: 600px;
-    height: 400px;
+
+    height: 500px;
+    width: 700px;
     opacity: 1;
     padding: 50px;
 
@@ -127,20 +139,27 @@ ul {
 
 #about-me {
 
+    display: flex;
+    flex-direction: row;
     border: 10px;
     border: solid;
     border-color: azure;
 }
 
+
 #work {
 
+    display: flex;
+    flex-direction: row;
     border: 10px;
     border: solid;
     border-color: azure;
 }
 
 #contact {
-
+    
+    display: flex;
+    flex-direction: row;
     border: 10px;
     border: solid;
     border-color: azure;
