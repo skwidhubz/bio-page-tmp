@@ -1,15 +1,68 @@
 * {
-
+    color: #000;
+    background-color: aquamarine;
     font-family: 'Courier New', Courier, monospace;
 
 }
 
-.header {
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
-    font-size: large;
+a {
+    color: royalblue;
+}
+
+.main-section {
     padding: 20px;
-    margin: 20px;
+
+}
 
 
-    
+header h1 {
+    color: black;
+    font-size: large;
+    border-color: rgb(255, 0, 0);
+    border: 5px;
+    border-style: solid;
+    padding: 20px;
+}
+
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-color: rgb(255, 0, 0);
+    border: 5px;
+    border-style: solid;
+    color: #000;
+    padding: 20px;
+
+}
+
+
+li {
+    display: inline-flex;
+    border: #000;
+    border-style: solid;
+    list-style-type: none;
+    display: flex;
+    color: #000;
+    list-style-type: none;
+}
+
+
+
+
+footer {
+    color: #000;
+    padding: 20px;
+
+} 
+footer::after {
+    content: '⭐';
 }
