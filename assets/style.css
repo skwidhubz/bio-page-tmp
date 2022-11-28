@@ -189,13 +189,14 @@ ul {
 
 .profile-pic  {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .profile-pic #profile {
 
-    height: 500px;
-    width: 700px;
+    height: 550px;
+    width: 500px;
     opacity: 0.5;
     padding: 50px;
 
@@ -203,8 +204,8 @@ ul {
 
 .profile-pic #profile:hover {
 
-    height: 500px;
-    width: 700px;
+    height: 550px;
+    width: 500px;
     opacity: 1;
     padding: 50px;
     transition: ease-in-out;
@@ -265,13 +266,18 @@ ul {
     border-color: azure;
 }
 
-#contact {
+.card #contact {
 
     display: flex;
     flex-direction: row;
     border: 10px;
     border: solid;
     border-color: azure;
+}
+
+.phone {
+
+    color: grey;
 }
 
 
@@ -287,15 +293,19 @@ footer {
     display: flex;
     justify-content: center;
     justify-self: space-between;
-    align-items: flex-start;
+    align-items: flex-end; 
+    background-color: rgb(153, 153, 153);
 
 
 }
 
 footer ul {
+    
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 
 
 }
