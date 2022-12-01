@@ -12,7 +12,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     color: var(--maincolor);
-    background-image: linear-gradient(rgba(106, 99, 99, 0.005), rgba(41, 37, 37, 0.315)), url(/assets/images/digital-blue-lame.jpg);
+    background-image: linear-gradient(rgba(106, 99, 99, 0.005), rgba(41, 37, 37, 0.315)), url(./assets/images/digital-blue-lame.jpg);
     background-attachment: fixed;
 }
 
