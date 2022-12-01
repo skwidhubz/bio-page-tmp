@@ -7,6 +7,7 @@ This webpage contains details about myself, works that I have developed, contact
 
 I have coded this webpage in HTML & CSS, using VSCode.
 
+https://skwidhubz.github.io/bio-page-tmp/
 
 ### Designed by Thomas M Parker
 
